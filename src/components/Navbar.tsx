@@ -7,6 +7,9 @@ import { MobileMenu } from "./MobileMenu";
 import { Squash as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 
+import Logo from "../../public/logo.svg";
+import Image from "next/image";
+
 export const navDatas = [
   {
     name: "Преимущества",
@@ -45,7 +48,7 @@ function Navbar() {
       <header className="absolute top-0 left-0 w-full">
         <div className="max-container flex items-center justify-between">
           <motion.a initial={{ y: -100 }} animate={{ y: 0 }} href="/">
-            <img src="/logo.svg" alt="" />
+            <Image src={Logo} alt="" />
           </motion.a>
           <nav className="text-white">
             <ul className="lg:flex hidden mx-6 flex-wrap gap-x-8 text-lg uppercase">
