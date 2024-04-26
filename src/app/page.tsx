@@ -48,7 +48,7 @@ export default function Home() {
               className={`uppercase text-4xl sm:text-5xl lg:text-8xl ${gerhaus.className}`}
             >
               <p>производим</p>
-              <p className="lg:ml-auto w-fit sm:pr-12 ml-auto">ДИЗАЙНЕРСКУЮ</p>
+              <p className="w-fit sm:pl-32 mr-auto">ДИЗАЙНЕРСКУЮ</p>
               <p className="">МЕБЕЛЬ</p>
             </motion.div>
             <div
@@ -94,7 +94,7 @@ export default function Home() {
           className={`uppercase in-container text-4xl sm:text-5xl lg:text-8xl mt-14 md:mt-28 ${gerhaus.className}`}
         >
           <p className="">НАШи</p>
-          <p className="lg:ml-40 w-fit sm:pr-1 ml-auto">ПРЕИМУЩЕСТВА</p>
+          <p className="w-fit sm:pl-32 mr-auto">ПРЕИМУЩЕСТВА</p>
         </motion.div>
 
         <div
